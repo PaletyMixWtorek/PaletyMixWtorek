@@ -1,0 +1,188 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # 1. BANERY GŁÓWNE
+  - name: "hero"
+    label: "Banery strona główna"
+    files:
+      - label: "Zdjęcia Banera"
+        name: "hero"
+        file: "content/hero.json"
+        fields:
+          - label: "Zdjęcia"
+            name: "images"
+            widget: "list"
+            fields:
+              - { label: "Zdjęcie", name: "url", widget: "image" }
+              - {
+                  label: "Opis (alt)",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+
+  # 2. OFERTA (PALETY, BOXY, WIELOSZTUKI)
+  - name: "oferta"
+    label: "Oferta strona główna"
+    files:
+      - label: "Palety"
+        name: "palety"
+        file: "content/palety.json"
+        fields:
+          - {
+              label: "Nagłówek",
+              name: "title",
+              widget: "string",
+              default: "PALETY",
+            }
+          - { label: "Opis", name: "description", widget: "text" }
+
+      - label: "Boxy"
+        name: "boxy"
+        file: "content/boxy.json"
+        fields:
+          - {
+              label: "Nagłówek",
+              name: "title",
+              widget: "string",
+              default: "BOXY",
+            }
+          - { label: "Opis", name: "description", widget: "text" }
+
+      - label: "Wielosztuki"
+        name: "wielosztuki"
+        file: "content/wielosztuki.json"
+        fields:
+          - {
+              label: "Nagłówek",
+              name: "title",
+              widget: "string",
+              default: "WIELOSZTUKI",
+            }
+          - {
+              label: "Podtytuł",
+              name: "subtitle",
+              widget: "string",
+              default: "KLASA A",
+            }
+          - { label: "Opis", name: "description", widget: "text" }
+
+  # 3. SEKCJA O NAS
+  - name: "about"
+    label: "O Nas strona główna"
+    files:
+      - label: "Treść O Nas"
+        name: "about"
+        file: "content/about.json"
+        fields:
+          - {
+              label: "Nagłówek",
+              name: "title",
+              widget: "string",
+              default: "O NAS",
+            }
+          - { label: "Treść", name: "content", widget: "markdown" }
+
+  # 4. GALERIA
+  - name: "gallery"
+    label: "Galeria strona główna"
+    files:
+      - label: "Zdjęcia w Galerii"
+        name: "gallery"
+        file: "content/gallery.json"
+        fields:
+          - {
+              label: "Nagłówek Sekcji",
+              name: "title",
+              widget: "string",
+              default: "SZEROKI WYBÓR PALET Z PRODUKTAMI KLASY A",
+            }
+          - {
+              label: "Opis Galerii (gallery_desc)",
+              name: "description",
+              widget: "markdown",
+            }
+          - label: "Zdjęcia"
+            name: "images"
+            widget: "list"
+            fields:
+              - { label: "Zdjęcie", name: "url", widget: "image" }
+              - {
+                  label: "Opis",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+
+  # 5. STRONA OFERTA (offer.html)
+  - name: "offer_page"
+    label: "Oferta - podstrona"
+    files:
+      - label: "Treści strony Oferta"
+        name: "offer"
+        file: "content/offer.json"
+        fields:
+          - label: "Palety"
+            name: "palety"
+            widget: "object"
+            fields:
+              - { label: "Nagłówek", name: "title", widget: "string" }
+              - { label: "Opis", name: "description", widget: "text" }
+              - label: "Zdjęcia"
+                name: "images"
+                widget: "list"
+                min: 3
+                max: 3
+                fields:
+                  - { label: "Zdjęcie", name: "url", widget: "image" }
+                  - {
+                      label: "Opis (alt)",
+                      name: "alt",
+                      widget: "string",
+                      required: false,
+                    }
+
+          - label: "Boxy / Paletoboxy"
+            name: "boxy"
+            widget: "object"
+            fields:
+              - { label: "Nagłówek", name: "title", widget: "string" }
+              - { label: "Opis", name: "description", widget: "text" }
+              - label: "Zdjęcia"
+                name: "images"
+                widget: "list"
+                min: 3
+                max: 3
+                fields:
+                  - { label: "Zdjęcie", name: "url", widget: "image" }
+                  - {
+                      label: "Opis (alt)",
+                      name: "alt",
+                      widget: "string",
+                      required: false,
+                    }
+
+          - label: "Wielosztuki"
+            name: "wielosztuki"
+            widget: "object"
+            fields:
+              - { label: "Nagłówek", name: "title", widget: "string" }
+              - { label: "Opis", name: "description", widget: "text" }
+              - label: "Zdjęcia"
+                name: "images"
+                widget: "list"
+                min: 3
+                max: 3
+                fields:
+                  - { label: "Zdjęcie", name: "url", widget: "image" }
+                  - {
+                      label: "Opis (alt)",
+                      name: "alt",
+                      widget: "string",
+                      required: false,
+                    }

@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "url": "images/photos/glowna1.jpeg",
+      "alt": "Galeria zdjęcie 1"
+    },
+    {
+      "url": "images/photos/glowna2.jpeg",
+      "alt": "Galeria zdjęcie 2"
+    },
+    {
+      "url": "images/photos/w.jpeg",
+      "alt": "Galeria zdjęcie 3"
+    },
+    {
+      "url": "images/photos/palety1.jpeg",
+      "alt": "Galeria zdjęcie 4"
+    },
+    {
+      "url": "images/photos/boxy8.jpeg",
+      "alt": "Galeria zdjęcie 5"
+    },
+    {
+      "url": "images/photos/wielosztuki1.jpg",
+      "alt": "Galeria zdjęcie 6"
+    }
+  ]
+}

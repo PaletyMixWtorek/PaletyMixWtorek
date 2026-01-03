@@ -1,0 +1,92 @@
+{
+  "palety": {
+    "title": "Palety",
+    "description": "Aktualnie w naszej ofercie dostępne są palety z produktami, które obejmują szeroki asortyment towarów pochodzących z nadwyżek magazynowych oraz zwrotów konsumenckich m.in. z Amazon. \n Oferta jest regularnie aktualizowana i dostosowywana do dostepności magazynowej. W chwili obecnej oferujemy palety z produktami: \n Costway, Kesser, Ali/Temu, zabawki, Woltu, Homcom, FFeurope, DWD Company, Eglo, Amazon, zwierzak, AGD",
+    "images": [
+      {
+        "url": "/images/photos/palety1.jpeg",
+        "alt": "Palety 1"
+      },
+      {
+        "url": "/images/photos/palety2.jpeg",
+        "alt": "Palety 2"
+      },
+      {
+        "url": "/images/photos/palety3.jpeg",
+        "alt": "Palety 3"
+      },
+      {
+        "url": "/images/photos/palety4.jpeg",
+        "alt": "Palety 4"
+      },
+      {
+        "url": "/images/photos/palety5.jpeg",
+        "alt": "Palety 5"
+      },
+      {
+        "url": "/images/photos/palety6.jpeg",
+        "alt": "Palety 6"
+      }
+    ]
+  },
+  "boxy": {
+    "title": "BOXY / PALETOBOXY",
+    "description": "Prowadzimy sprzedaż boxów oraz paletoboxów, które stanowią wygodne i efektywne rozwiązanie do transportu oraz magazynowania towarów. \n Oferowane opakowania dostępne są w różnych wariantach i dostosowane do indywidualnych potrzeb kientów. \n Zapewniamy wysoką jakość, atrakcyjne ceny oraz stałą dostępność produktów. \n Obecnie w naszej ofercie dostępne są palety z następującymi produktami: \n Ali/Temu, elektronika, zabawki, Lucky7",
+    "images": [
+      {
+        "url": "/images/photos/boxy1.jpeg",
+        "alt": "Boxy 1"
+      },
+      {
+        "url": "/images/photos/boxy2.jpeg",
+        "alt": "Boxy 2"
+      },
+      {
+        "url": "/images/photos/boxy3.jpeg",
+        "alt": "Boxy 3"
+      },
+      {
+        "url": "/images/photos/boxy4.jpeg",
+        "alt": "Boxy 4"
+      },
+      {
+        "url": "/images/photos/boxy5.jpeg",
+        "alt": "Boxy 5"
+      },
+      {
+        "url": "/images/photos/boxy6.jpeg",
+        "alt": "Boxy 6"
+      }
+    ]
+  },
+  "wielosztuki": {
+    "title": "WIELOSZTUKI KLASA A",
+    "description": "Prowadzimy sprzedaż wielosztuk klasy A, objmujących starannie wyselekcjonowany asortyment produktór charakteryzujących się bardzo dobrym stanem technicznym i wizualnym. \n Oferowane wielosztuki pochodzą z bieżących dostaw i spełniają wysokie standardy jakości. \n Zapewniamy atrakcyjne warunki współpracy, konkurencyjne ceny oraz regularną dostępność towaru. \n Dostepne są wielosztuki z przykładowymi produktami, takimi jak: \n Hokery, odkurzaczem frytkownice, szafki łazienkowe.",
+    "images": [
+      {
+        "url": "/images/photos/wielosztuki1.jpg",
+        "alt": "Wielosztuki 1"
+      },
+      {
+        "url": "/images/photos/wielosztuki2.jpg",
+        "alt": "Wielosztuki 2"
+      },
+      {
+        "url": "/images/photos/wielosztuki3.jpg",
+        "alt": "Wielosztuki 3"
+      },
+      {
+        "url": "/images/photos/wielosztuki4.jpg",
+        "alt": "Wielosztuki 4"
+      },
+      {
+        "url": "/images/photos/wielosztuki5.jpg",
+        "alt": "Wielosztuki 5"
+      },
+      {
+        "url": "/images/photos/wielosztuki6.jpg",
+        "alt": "Wielosztuki 6"
+      }
+    ]
+  }
+}
