@@ -103,7 +103,7 @@ hr {
   text-align: left;
   background-color: #000000;
   color: white;
-  height: 12vh;
+  height: 14vh;
   font-size: 0.9vw;
   padding: 0 25%;
   padding-top: 3%;
@@ -266,7 +266,7 @@ hr {
   }
 
   #contact {
-    height: 12vh;
+    height: 14vh;
   }
 
   #brands img {
@@ -274,9 +274,52 @@ hr {
   }
 }
 
-@media (min-width: 1451px) and (max-width: 1849px) {
+@media (min-width: 1601px) and (max-width: 1849px) {
+    .above_menu {
+    font-size: 0.9rem;
+  }
+
   #contact {
-    height: 12vh;
+    height: 14vh;
+  }
+
+  #brands img {
+    width: 10vw;
+  }
+
+   #menu {
+    position: relative !important;
+    top: auto;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  #contact {
+    height: 13vh;
+  }
+
+  #brands {
+    margin: 2vw 6vw;
+  }
+
+  #brands img {
+    width: 10vw;
+  }
+
+  #menu {
+    position: relative !important;
+    top: auto !important;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+  #contact {
+    height: 14vh;
+  }
+
+  #menu {
+    position: relative !important;
+    top: auto;
   }
 
   #brands {
@@ -288,9 +331,14 @@ hr {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1450px) {
+@media (min-width: 1025px) and (max-width: 1300px) {
+  #menu {
+    position: relative !important;
+    top: auto !important;
+  }
+
   #contact {
-    height: 9vh;
+    height: 14vh;
   }
 
   #brands {
@@ -322,7 +370,7 @@ hr {
   }
 
   #menu {
-    position: relative;
+    position: relative !important;
     left: auto;
     right: auto;
     top: auto;

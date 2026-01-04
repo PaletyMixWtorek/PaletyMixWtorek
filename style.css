@@ -16,7 +16,7 @@ body {
 header {
   position: relative;
   overflow: hidden;
-  height: 65vh;
+  height: 75vh;
 }
 
 .hero-bg {
@@ -466,13 +466,17 @@ hr {
 
 }
 
-@media (min-width: 1921px) and (max-width: 2559px) {
-
-}
-
 @media (min-width: 1850px) and (max-width: 1920px) {
   #products_desc section {
     font-size: 0.7vw;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  .hero-bg {
+    height: 80vh;
   }
 
   .above_menu {
@@ -495,7 +499,7 @@ hr {
 
   #gallery {
     margin: 0 5vw;
-    height: 35vh;
+    height: 37vh;
     width: 90vw;
     gap: 2%;
   }
@@ -507,7 +511,7 @@ hr {
   }
 
   #contact {
-    height: 12vh;
+    height: 14vh;
   }
 
   #brands img {
@@ -521,6 +525,11 @@ hr {
   .gallery-next {
     right: 9%;
   }
+
+  .offer_box {
+    height: 25vh;
+  }
+
 }
 
 @media (min-width: 1601px) and (max-width: 1849px) {
@@ -601,6 +610,14 @@ hr {
     margin: 0 !important;
   }
 
+  .hero-bg {
+    height: 80vh;
+  }
+
+  header {
+    height: 80vh;
+  }
+
   #menu {
     top: auto;
   }
@@ -629,7 +646,7 @@ hr {
 
   #gallery {
     margin: 0;
-    height: 35vh;
+    height: 45vh;
     width: 100vw;
     gap: 2%;
   }
@@ -641,7 +658,7 @@ hr {
   }
 
   #contact {
-    height: 12vh;
+    height: 14vh;
   }
 
   #brands {
@@ -684,8 +701,17 @@ hr {
     width: 7vw;
   }
 
+  .hero-bg {
+    height: 80vh;
+  }
+
+  header {
+    height: 80vh;    
+  }
+
   .offer_box {
     width: 27vw;
+    height: 25vh;
   }
 
   #gallery img {
@@ -700,7 +726,7 @@ hr {
 
   #gallery {
     margin: 0;
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     gap: 2%;
   }
@@ -712,7 +738,7 @@ hr {
   }
 
   #contact {
-    height: 12vh;
+    height: 15vh;
   }
 
   #brands {
@@ -747,6 +773,14 @@ hr {
     top: auto;
   }
 
+  .hero-bg {
+    height: 80vh;
+  }
+
+  header {
+    height: 80vh;
+  }
+
   #offer {
     height: 30vh;
   }
@@ -757,6 +791,14 @@ hr {
 
   .offer_box {
     width: 27vw;
+  }
+
+  .offer_box p {
+    font-size: 0.8rem;
+  }
+
+  .offer_box h2 {
+    font-size: 0.8rem;
   }
 
   #gallery img {
@@ -815,7 +857,7 @@ hr {
   }
 
   #contact {
-    height: 12vh;
+    height: 14vh;
   }
 }
 
