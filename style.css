@@ -214,12 +214,12 @@ hr {
 
 #contact {
   display: flex;
-  justify-content: space- between;
+  justify-content: space-between;
   align-items: flex-start;
   text-align: left;
   background-color: #000000;
   color: white;
-  height: 12vh;
+  height: 14vh;
   font-size: 0.9vw;
   padding: 0 25%;
   padding-top: 3%;
@@ -377,6 +377,13 @@ hr {
 .gallery-next:hover {
   background-color: #000000cc;
 }
+
+#offer a,
+#offer a * {
+    text-decoration: none !important;
+    color: black !important;
+}
+
 
 @media (min-width: 2561px) and (max-width: 3840px) {
   .above_menu {
