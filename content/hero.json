@@ -1,24 +1,24 @@
 {
   "images": [
     {
-      "url": "images/banner/baner_01.jpg",
-      "alt": "Banner 1"
+      "url": "images/banner/baner_01.webp",
+      "alt": "Banner pierwszy z logiem whatsapp i nr 607 902 177"
     },
     {
-      "url": "images/banner/baner_02.jpg",
-      "alt": "Banner 2"
+      "url": "images/banner/baner_02.webp",
+      "alt": "Banner drugi ze zdjęciami palet i napisem co tydzień nowe dostawy"
     },
     {
-      "url": "images/banner/baner_03.jpg",
-      "alt": "Banner 3"
+      "url": "images/banner/baner_03.webp",
+      "alt": "Banner trzeci z napiszem zakupy prosto z tira i możliwość wysyłki na terenie całego kraju"
     },
     {
-      "url": "images/banner/baner_04.jpg",
-      "alt": "Banner 4"
+      "url": "images/banner/baner_04.webp",
+      "alt": "Banner czwarty z napisem nowy adres, ulica przyjazna, wtórek"
     },
     {
-      "url": "images/banner/baner_05.jpg",
-      "alt": "Banner 5"
+      "url": "images/banner/baner_05.webp",
+      "alt": "Banner piąty z napisem zbieraj pieczątki i otrzymaj paletę gratis"
     }
   ]
 }
